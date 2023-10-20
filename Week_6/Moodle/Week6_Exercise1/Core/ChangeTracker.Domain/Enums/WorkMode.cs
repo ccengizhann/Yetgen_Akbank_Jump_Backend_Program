@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace ChangeTracker.Domain.Enums
 {
-    internal class WorkMode
+    public enum WorkMode
     {
+        Remote = 0,
+        Hybrid = 1,
+        InOffice = 2
+
+
     }
 }
