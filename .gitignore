@@ -397,3 +397,4 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 Week_6/Moodle/Week6_Exercise1/Infrastructure/ChangeTracker.Persistance/private.json
+Week_6/Moodle/Week6_Exercise1/Infrastructure/ChangeTracker.Persistence/private.json

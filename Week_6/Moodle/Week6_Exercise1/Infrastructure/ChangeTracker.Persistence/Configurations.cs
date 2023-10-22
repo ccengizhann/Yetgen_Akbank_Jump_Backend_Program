@@ -8,7 +8,7 @@ namespace ChangeTracker.Persistance
         {
             ConfigurationManager configurationManager = new();
 
-            string path = $"{Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName}\\Infrastructure\\ChangeTracker.Persistence";
+            string path = $"{Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName}\\Infrastructure\\ChangeTracker.Persistence";
 
             configurationManager.SetBasePath(path);
 
