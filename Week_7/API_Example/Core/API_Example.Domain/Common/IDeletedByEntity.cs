@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace API_Example.Domain.Common
 {
-    internal class IDeletedByEntity
+    public interface IDeletedByEntity
     {
+        DateTime? DeletedOn { get; set; }
+        string? DeletedByEntity { get; set; }
+        bool? IsDeleted { get; set; }
     }
 }

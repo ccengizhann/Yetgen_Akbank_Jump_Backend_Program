@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace API_Example.Domain.Enums
 {
-    internal class GearboxType
+    public enum GearboxType
     {
+        Automatic = 0,
+        Manual = 1,
     }
 }
