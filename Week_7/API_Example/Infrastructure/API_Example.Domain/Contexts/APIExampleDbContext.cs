@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace API_Example.Persistence.Contexts
 {
-    public class Week_7_1DbContext : DbContext
+    public class APIExampleDbContext : DbContext
     {
         public DbSet<Car> Cars { get; set; }
         public DbSet<CarPost> CarPosts { get; set; }
